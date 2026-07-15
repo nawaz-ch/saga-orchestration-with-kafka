@@ -1,5 +1,25 @@
 # saga-orchestration-with-kafka
 
+
+**For running kafka brokers**
+
+
+
+- in docker-compose.yml file, change volumes `/home/nawaz17/kafka/docker-compose/volumes/server-1` according to your local setup.
+
+ - create volumes to run brokers locally
+```bash
+mkdir volumes
+cd volumes
+mkdir server-1
+mkdir server-2
+mkdir server-3
+```
+- run docker compose file
+```bash
+  docker compose up -d
+```
+
 **Saga-pattern Happy path flow**
 
 
