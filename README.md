@@ -10,3 +10,6 @@
 > [!NOTE]
 > In case the paymentDB failed to save the payment, the DB can rollback the transcation. To maintain data consistency,the productsDB and orderDB must be rolledback through compensating transcations.
 
+
+![alt](https://github.com/nawaz-ch/saga-orchestration-with-kafka/blob/fc0cc2ac85c57129ee214b91610d14bfb444abe3/%5Dcompensating-transcation.png)
+
